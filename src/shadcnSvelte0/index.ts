@@ -865,6 +865,7 @@ export function shadcnSvelte0() {
     uiName: 'shadcnSvelte0',
     map,
     lib: 'shadcn-svelte',
+    dynamicLib: '$lib/components/ui/${name}/index.js',
   }
 }
 
